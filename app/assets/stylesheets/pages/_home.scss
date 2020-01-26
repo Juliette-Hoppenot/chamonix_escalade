@@ -1,1 +1,109 @@
-// Specific CSS for your home-page
+p, li {
+  color: #7e7e7e;
+}
+
+
+.highlighted-red {
+  color: #fd1015;
+  background: rgba(253,16,21,.1);
+  padding: 8px;
+}
+
+.salle {
+  margin-top: 30vh;
+}
+
+.contenu-salle {
+  text-align: center;
+  margin: 15px;
+}
+
+.contenu-salle p {
+  padding: 40px;
+  font-size: 24px;
+}
+
+.flex-salle {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+.wrapper {
+  margin-top: 30vh;
+}
+
+
+.container-planning {
+  margin-top: 80vh;
+  text-align: center;
+}
+
+.planning-title h2 {
+  font-size: 32px;
+}
+
+.planning-title p {
+  font-size: 22px;
+  padding: 20px;
+}
+
+.bloc-partenaires {
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  text-align: center;
+}
+
+.title-partenaires {
+  padding: 20px;
+  margin: 10vh;
+}
+
+.logos-partenaires {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+
+.content {
+  background-color: #FAFAFA;
+  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+  height: 80vh;
+  width: 100%;
+}
+
+.flex-concept {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contenu-concept {
+  text-align: right;
+  width: 800px;
+  padding: 40px;
+  align-items: center;
+  justify-items: end;
+}
+
+.contenu-concept p {
+  font-size: 22px;
+  padding: 20px;
+  text-align: right;
+}
+
+.contenu-concept h2 {
+  font-size: 32px;
+  padding: 25px;
+}
+
+#concept-image {
+  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+}
