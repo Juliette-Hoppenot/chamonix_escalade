@@ -1,0 +1,40 @@
+.btn{
+  margin: 20px auto;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  position: relative;
+  &::before{
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+
+  //rounded btn styles
+  &.rounded{
+    border-radius:50px;
+    & .text-green{
+      color: black;
+      mix-blend-mode: hard-light;
+      font-size: 28px;
+
+    }
+
+    &::before{
+      border-radius: 50px;
+      width: 25%;
+      background: #fd1015;
+    }
+    &:hover{
+      &::before{
+      background: #fd1015;
+        width: 100%;
+      }
+    }
+  }
+}

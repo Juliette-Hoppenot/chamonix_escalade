@@ -1,0 +1,59 @@
+.bloc-offers {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: absolute;
+  top: 600px;
+  margin: 0 auto;
+  padding: 180px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-offer {
+  width: 450px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 28px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
+  top: -100px;
+}
+
+.card-offer:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 10px 45px 70px;
+}
+
+.card-info {
+  padding: 30px 0;
+}
+
+.card-info li {
+  font-size: 24px;
+  list-style: square;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.card-title span {
+  font-size: 32px;
+  text-align: center;
+  border-radius: 5px;
+  color: #4E5166;
+}
+
+.card-title h2 {
+  padding: 50px 0;
+}
+
+// #en-savoir-plus {
+//   text-decoration: none;
+//   text-align: center;
+//   padding: 20px 10px;
+//   border-radius: 25px;
+//   box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
+//   color: white;
+//   background-color: #1565C0;
+//   margin: 30px;
+// }
