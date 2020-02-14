@@ -5,6 +5,16 @@
   position: relative;
 }
 
-.banner h1 {
+.banner h1, h3 {
   color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
