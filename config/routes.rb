@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'license', to: 'pages#license', as: :license
+  get 'public', to: 'pages#public', as: :public
+  get 'business', to: 'pages#business', as: :business
+
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   devise_for :users
