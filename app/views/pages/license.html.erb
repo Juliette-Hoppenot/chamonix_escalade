@@ -1,11 +1,73 @@
-<%= link_to "root_path", id:'logo' do %>
+<%= link_to root_path do %>
   <%= image_tag "AUME.png", width:100 %>
 <% end %>
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1564769662533-4f00a87b4056?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1414&q=80);">
+<div class="banner banner-single" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1564769662533-4f00a87b4056?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1414&q=80);">
   <div class="container">
     <h1>Un encadrement ludique<span class="highlighted-red">pour tous</span></h1>
-    <h3>avec des événements réguliers en indoor et outdoor</h3>
   </div>
 </div>
+
+<div class="container-block">
+  <div class="row justify-content-center">
+    <div class="col-sm-6 tarifs">
+      <h2>L'adhésion annuelle</h2>
+      <p>Elle inclue des cours hebdomadaires de septembre à fin novembre, et de début avril à fin juillet. </p>
+    <div class="flex-tarifs">
+      <div class="enfant">
+        <h3>Tarifs -12 ans</h3>
+        <p>275 euros par an</p>
+      </div>
+      <div class="adulte">
+        <h3>Tarifs + 12 ans </h3>
+        <p>375 euros par an</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-1">
+  <div class="cards">
+    <div class="texte">
+      <div class="bloc-texte">
+        <h2>Progresser en indoor, semaine après semaine</h2>
+        <p>Nos professionnels encadrants vous aident à déterminer vos objectifs et à progresser à votre rythme, en toute sécurité. Chaque lundi et mercredi, 20 licensés bénéficient d'un créneau de 2 heures durant lesquelles la salle est dédiée à leur apprentissage.</p>
+      </div>
+    </div>
+    <div class="photo">
+      <%= image_tag "https://images.unsplash.com/photo-1509398484917-2a5b6439feef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80", id: 'picture-lame', class: 'img-responsive'%>
+    </div>
+  </div>
+</div>
+
+<div class="container-1">
+  <div class="cards">
+    <div class="photo">
+      <%= image_tag "https://images.unsplash.com/photo-1578763397886-16ac7b2495d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80", id: 'picture-lame', class: 'img-responsive'%>
+    </div>
+    <div class="texte">
+      <div class="bloc-texte">
+        <h2>Se dépasser en grande voie</h2>
+        <p>Trois à quatre fois par an, la séance se déroule en extérieur, dans des sites sélectionnés avec soin par nos équipes, selon le niveau du groupe, les conditions météorologiques et les envies de chacun.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-1">
+  <div class="cards">
+    <div class="texte">
+      <div class="bloc-texte">
+        <h2>Vivre l'adrénaline, sur des très grandes voies</h2>
+        <p>Trois à quatre fois par an, la séance se déroule en extérieur, dans des sites sélectionnés avec soin par nos équipes, selon le niveau du groupe, les conditions météorologiques et les envies de chacun.</p>
+      </div>
+    </div>
+    <div class="photo">
+      <%= image_tag "https://images.unsplash.com/photo-1578763399089-42091eda1cda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1956&q=80", id: 'picture-lame', class: 'img-responsive'%>
+    </div>
+  </div>
+</div>
+
+
 
 
