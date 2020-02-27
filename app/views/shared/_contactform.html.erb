@@ -1,0 +1,11 @@
+<div class="contact-form">
+  <div class="container">
+    <%= simple_form_for @contact do |f| %>
+      <%= f.input :firstname %>
+      <%= f.input :lastname %>
+      <%= f.input :email %>
+      <%= f.input :message %>
+      <%= f.button :submit %>
+    <% end %>
+  </div>
+</div>
