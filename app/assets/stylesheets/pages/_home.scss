@@ -1,10 +1,6 @@
-p, li {
-  color: #7e7e7e;
-}
-
 
 .highlighted-red {
-  color: #fd1015;
+  color: #FF6F59;
   background: rgba(253,16,21,.1);
   padding: 8px;
 }
@@ -33,12 +29,13 @@ p, li {
 
 
 .wrapper {
-  margin-top: 400px;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
 }
 
 
 .container-planning {
-  margin-top: 30vh;
+  margin-top: 10vh;
   text-align: center;
 }
 
@@ -107,4 +104,8 @@ p, li {
 
 #concept-image {
   clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+}
+
+.flex-salle {
+  margin-top: 40vh;
 }
