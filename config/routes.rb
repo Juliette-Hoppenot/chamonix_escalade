@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'license', to: 'pages#license', as: :license
   get 'public', to: 'pages#public', as: :public
   get 'business', to: 'pages#business', as: :business
+  get 'salle', to: 'pages#salle', as: :salle
 
 
   devise_for :admin_users, ActiveAdmin::Devise.config

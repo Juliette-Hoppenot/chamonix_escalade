@@ -4,7 +4,7 @@
   background: transparent;
   position: sticky;
   position: relative;
-  top: -270px;
+  top: -80px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -36,5 +36,9 @@
   background-color: #FF6F59;
   border-radius: 20px;
   margin-left: 10px;
+  color: white;
 }
 
+#btn-navbar {
+  color: white;
+}
