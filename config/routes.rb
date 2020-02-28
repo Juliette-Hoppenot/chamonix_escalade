@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   get 'public', to: 'pages#public', as: :public
   get 'business', to: 'pages#business', as: :business
   get 'salle', to: 'pages#salle', as: :salle
+  get 'inscriptions/new', to: 'inscriptions#new'
+  post 'inscriptions', to: 'inscription#create'
+  get 'contacts/new', to: 'contacts#new'
+  post 'contacts', to: 'contact#create'
 
 
   devise_for :admin_users, ActiveAdmin::Devise.config
