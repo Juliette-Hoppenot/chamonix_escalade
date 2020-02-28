@@ -1,0 +1,31 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);">
+    <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+    <%= link_to root_path, class: "navbar-brand" do %>
+      <%= image_tag "logo-escalade.png" %>
+    <% end %>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <%= link_to "La salle", "#", class: "nav-link", id:'btn-navbar' %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Inscription", "#", class: "nav-link", id:"btn-inscription" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <h1>Inscription annuelle au club Aume Escalade</h1>
+  </div>
+</div>
+
+
+<div class="container-form">
+  <%= simple_form_for @inscription do |f| %>
+    <%= f.input :first_name, label: "Votre Prénom" %>
+    <%= f.input :last_name,label: "Votre Nom de famille" %>
+    <%= f.input :email, label: "Votre email" %>
+    <%= f.input :phone, label: "Votre Téléphone" %>
+    <%= f.button :submit, label: "Valider", id:"btn-inscription", class:"inscription-big" %>
+  <% end %>
+</div>
