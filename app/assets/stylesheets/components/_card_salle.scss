@@ -1,0 +1,25 @@
+.flex-niveau {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: space-around;
+}
+
+ .jaune, .vert h3 {
+    color: black;
+    font-size: 14px;
+  }
+
+.jaune, .vert, .bleu, .rouge, .violet, .noir {
+  text-align: left;
+}
+
+.tarifs h2 {
+  color: blue;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.jaune {
+  display: block;
+}
