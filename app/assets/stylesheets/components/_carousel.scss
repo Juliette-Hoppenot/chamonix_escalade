@@ -1,12 +1,13 @@
-.carousel-item {
-  height: 80vh;
-}
-
-.d-block {
-  width: 100%;
+.carousel-inner {
+margin: 0 auto;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
 }
+
+.lame-carousel {
+  margin-top: 5vh;
+}
+

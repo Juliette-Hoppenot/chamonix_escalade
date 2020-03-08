@@ -1,3 +1,18 @@
+.chaussons-niveaux {
+  background-color: white;
+  height: 70vh;
+  margin-bottom: 20vh;
+
+  h2 {
+    padding: 60px 0;
+  }
+}
+
+
+.cards-niveaux {
+  text-align: center;
+}
+
 .lame-infos-pratiques {
   text-align: center;
   margin-top: 10%;
@@ -8,12 +23,16 @@
   color: black;
 }
 
+.color {
+  font-size: 16px;
+  background-color: white;
+  box-shadow: gba(0, 0, 0, 0.12) 0px 16px 40px;
+  border-radius: 5px;
+}
 
-#marianne {
-  padding: 20px 10px;
-  background-color: blue;
-  border-radius: 25%;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  width: 30%;
-  margin: 0 auto;
+
+.chausson-infos {
+  margin-top: 5px;
+  padding: 10px 5px;
+  line-height: 0.8;
 }
