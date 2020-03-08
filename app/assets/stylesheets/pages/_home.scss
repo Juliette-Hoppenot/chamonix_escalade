@@ -5,18 +5,18 @@
   padding: 8px;
 }
 
-.salle {
-  margin-top: 40vh;
+.lame-salle {
+  margin-top: 50vh;
 }
 
 .contenu-salle {
   text-align: center;
   margin: 15px;
-}
 
-.contenu-salle p {
+  p {
   padding: 40px;
   font-size: 24px;
+  }
 }
 
 .flex-salle {
@@ -27,11 +27,6 @@
   padding: 20px;
 }
 
-
-.wrapper {
-  margin-top: 30vh;
-  margin-bottom: 30vh;
-}
 
 
 .container-planning {
@@ -106,6 +101,3 @@
   clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
 }
 
-.flex-salle {
-  margin-top: 40vh;
-}
