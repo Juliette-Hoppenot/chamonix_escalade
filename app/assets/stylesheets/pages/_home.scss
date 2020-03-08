@@ -5,6 +5,8 @@
   padding: 8px;
 }
 
+// SALLE
+
 .lame-salle {
   margin-top: 50vh;
 }
@@ -22,26 +24,76 @@
 .flex-salle {
   display: flex;
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   justify-content: space-around;
   padding: 20px;
 }
 
+// CONCEPT
 
+.concept {
+  background-color: #FAFAFA;
+  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+  height: 70vh;
+  width: 100%;
+  margin-top: 200px;
+}
+
+
+.flex-concept {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contenu-concept {
+  text-align: right;
+  width: 800px;
+  padding: 40px;
+  align-items: center;
+  justify-items: end;
+
+    p {
+    font-size: 22px;
+    padding: 20px;
+    text-align: right;
+  }
+
+    h2 {
+      font-size: 32px;
+      padding: 25px;
+  }
+}
+
+
+#concept-image {
+  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+}
+
+
+
+// PLANNING
 
 .container-planning {
   margin-top: 10vh;
   text-align: center;
 }
 
-.planning-title h2 {
-  font-size: 32px;
-}
+.planning-title {
 
-.planning-title p {
+  h2 {
+  font-size: 32px;
+  }
+
+  p {
   font-size: 22px;
   padding: 20px;
+  }
 }
+
+// PARTENAIRES
 
 .bloc-partenaires {
   margin-top: 20vh;
@@ -62,42 +114,5 @@
 }
 
 
-.content {
-  background-color: #FAFAFA;
-  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
-  height: 80vh;
-  width: 100%;
-  margin-top: 300px;
-}
 
-.flex-concept {
-  display: flex;
-  margin: 0 auto;
-  width: 90%;
-  justify-content: space-around;
-  padding: 20px;
-}
-
-.contenu-concept {
-  text-align: right;
-  width: 800px;
-  padding: 40px;
-  align-items: center;
-  justify-items: end;
-}
-
-.contenu-concept p {
-  font-size: 22px;
-  padding: 20px;
-  text-align: right;
-}
-
-.contenu-concept h2 {
-  font-size: 32px;
-  padding: 25px;
-}
-
-#concept-image {
-  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
-}
 
