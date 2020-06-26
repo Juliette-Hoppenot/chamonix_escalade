@@ -1,50 +1,52 @@
-.btn{
-  margin: 20px auto;
-  border: none;
-  padding: 5px 10px;
-  font-size: 16px;
-  position: relative;
-  &::before{
-    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    content: '';
-    width: 30%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
+// .btn{
+//   margin: 20px auto;
+//   border: none;
+//   padding: 5px 10px;
+//   font-size: 16px;
+//   position: relative;
+//   &::before{
+//     transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+//     content: '';
+//     width: 30%;
+//     height: 100%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
 
 
-  //rounded btn styles
-  &.rounded{
-    border-radius:50px;
-    & .text-green{
-      color: black;
-      mix-blend-mode: hard-light;
-      font-size: 28px;
+//   //rounded btn styles
+//   &.rounded{
+//     border-radius:50px;
+//     & .text-green{
+//       color: black;
+//       mix-blend-mode: hard-light;
+//       font-size: 28px;
 
-    }
+//     }
 
-    &::before{
-      border-radius: 50px;
-      width: 25%;
-      background: #FF6F59;
-    }
-    &:hover{
-      &::before{
-      background: #FF6F59;
-        width: 100%;
-      }
-    }
-  }
-}
+//     &::before{
+//       border-radius: 50px;
+//       width: 25%;
+//       background: #FF6F59;
+//     }
+//     &:hover{
+//       &::before{
+//       background: #FF6F59;
+//         width: 100%;
+//       }
+//     }
+//   }
+// }
 
 .btn-savoir-plus {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   padding: 10px 20px;
+  background-color: white;
   color: black;
-  border: 1px solid black;
+  border-radius: 5px;
+  border: 1px solid ;
 
   &:hover {
     background-color: #FF6F59;
