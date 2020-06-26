@@ -1,6 +1,6 @@
 .chaussons-niveaux {
   background-color: white;
-  height: 70vh;
+  height: auto;
   margin-bottom: 20vh;
 
   h2 {
@@ -49,4 +49,14 @@
   font-weight: normal;
   }
 
+}
+
+.intro-salle {
+  width: 50%;
+  height: 20vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  h2 {
+    padding: 10px 20px;
+  }
 }

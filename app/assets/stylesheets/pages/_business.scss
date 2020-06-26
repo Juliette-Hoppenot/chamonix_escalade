@@ -1,0 +1,47 @@
+#topics {
+  background-color: #faf2f2;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.titles {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.grid-topics {
+  display: grid;
+  grid-wrap: wrap;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 20px;
+}
+
+.card-single {
+ text-align: left;
+ background-color: white;
+ border-radius: 5px;
+ padding-left: 25px;
+ padding-top: 25px;
+ box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+
+#bold-paragraph {
+  font-weight: bold;
+}
+
+#grey-paragraph {
+  color: rgba(7, 10, 57, 0.5);
+}
+
+
+.titles h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.titles p {
+  color: rgba(7, 10, 57, 0.5);
+}

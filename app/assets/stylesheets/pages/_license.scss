@@ -7,7 +7,7 @@
 
 .container-1 {
   margin-top: 20px;
-  height: 900px;
+  height: 80%;
 }
 
 #picture-lame {
@@ -33,6 +33,15 @@
     margin: 20px;
     font-size: 24px;
   }
+}
+
+.bloc-texte ul > li {
+    font-size: 20px;
+    text-align: left;
+}
+
+.bloc-texte {
+  text-align: left;
 }
 
 .container-block {

@@ -7,58 +7,58 @@
 
 // SALLE
 
-.lame-salle {
-  margin-top: 50vh;
-}
+// .lame-salle {
+//   margin: 0 auto;
+//   width: 800px;
+// }
 
 .contenu-salle {
   text-align: center;
   margin: 15px;
 
   p {
-  padding: 40px;
-  font-size: 24px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 24px;
   }
 }
 
-.flex-salle {
-  display: flex;
-  margin: 0 auto;
-  width: 50%;
-  justify-content: space-around;
-  padding: 20px;
+
+#section-salle {
+  margin-top: 300px;
 }
+
 
 // CONCEPT
 
 .concept {
   background-color: #FAFAFA;
-  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
+  // clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
   height: 70vh;
-  width: 100%;
   margin-top: 200px;
 }
 
 
 .flex-concept {
   display: flex;
-  margin: 0 auto;
-  width: 90%;
+  flex-grow: 1;
+  margin: 40px;
+  // width: 90%;
   justify-content: space-around;
-  padding: 20px;
+  // padding: 20px;
 }
 
 .contenu-concept {
-  text-align: right;
-  width: 800px;
+  text-align: center;
+  // width: 800px;
   padding: 40px;
-  align-items: center;
-  justify-items: end;
+  // align-items: center;
+  // justify-items: start;
 
     p {
     font-size: 22px;
     padding: 20px;
-    text-align: right;
+    text-align: left;
   }
 
     h2 {
