@@ -18,3 +18,46 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 $base-size: 16px;
 $base-height: 1.4;
 
+.h1-white {
+  font-size: 38px;
+  color: white;
+  line-height: 1.4;
+}
+
+.h1-dark {
+  font-size: 38px;
+  color: #423F3F;
+  line-height: 1.4;
+}
+
+.h2-white {
+  font-size: 32px;
+  color: white;
+}
+
+.h2-dark {
+  font-size: 32px;
+  color: #423F3F;
+}
+
+body h3 {
+  text-transform: uppercase;
+}
+
+body p {
+  font-size: 20px;
+  color: #423F3F;
+  padding: 15px;
+}
+
+body li {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+body h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 500;
+}
+

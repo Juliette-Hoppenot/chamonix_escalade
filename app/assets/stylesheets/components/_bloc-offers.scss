@@ -1,8 +1,6 @@
 .bloc-offers {
-  height: 500px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  // flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1600px;
   // grid-auto-rows: 200px;
@@ -13,17 +11,17 @@
   // padding: 20px;
   // justify-content: space-around;
   align-items: center;
+  margin-top: 10vh;
 }
 
 .card-offer {
-  width: 450px;
-  // height: 500px;
+  width: 500px;
   background-color: white;
   border-radius: 5px;
   font-size: 28px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
-  top: -100px;
+  // top: -100px;
 }
 
 // @media(max-width: 992px) {

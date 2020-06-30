@@ -1,13 +1,18 @@
 .footer {
   height: 100px;
-  background-color: #0CAADC;
+  background-color: #F4F4F4;
   text-align: center;
+  margin-top: 10vh;
 }
 
 .footer-text {
   text-align: center;
   vertical-align: center;
   font-size: 20px;
-  color: white;
+  color: $dark-gray;
   padding-top: 30px;
+}
+
+.footer .fa-heart {
+  color: #D23333;
 }
