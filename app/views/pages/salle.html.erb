@@ -1,4 +1,4 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url(https://images.unsplash.com/photo-1564769662533-4f00a87b4056?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1414&q=80);">
+<div class="banner">
 
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
   <%= link_to root_path, class: "navbar-brand" do %>
@@ -23,89 +23,56 @@
 </div>
 
 <section>
-  <div class="container intro-salle">
-    <h2>Un lieu insolite</h2>
-    <p>Venez vous immerger dans un lieu atypique de plus de 500m2, sous 12 mètres de plafond, aménagé dans le pilier du Pont de saint-Gervais. Deux espaces bloc et voie invitent à l'expérimentation et à l'entraînement individuel et collectif. Un espace extérieur en libre accès est également proposé aux curieux et débutants. </p>
+  <div class="container my-5 intro-salle">
+    <div class="row">
+      <div class="col-12 lame1-salle">
+        <h2 class="h2-dark">Un lieu insolite</h2>
+        <p>Venez vous immerger dans un lieu atypique de plus de 500m2, sous 12 mètres de plafond, aménagé dans le pilier du Pont de saint-Gervais. <br><br>Deux espaces bloc et voie invitent à l'expérimentation et à l'entraînement individuel et collectif. Un espace extérieur en libre accès est également proposé aux curieux et débutants. </p>
+      </div>
+    </div>
   </div>
 </section>
 
 <section>
-<!--   <div class="container">
-    <h2>Découvrez la salle en images</h2>
-  </div> -->
   <%= render 'shared/carousel' %>
 </section>
 <!-- MAIN-SALLE
  -->
 
 <section>
-  <div class="container chaussons-niveaux">
-    <h2>Les voies par niveau</h2>
-    <div class="cards-niveaux">
-      <div class="row align-items-center justify-content-center flex-niveau">
-        <div class="col-sm-6 col align-self-center m-auto">
-          <div class="color">
-            <%= image_tag "https://www.chullanka.com/media/catalog/product/cache/1/image/1024x/9df78eab33525d08d6e5fb8d27136e95/s/k/skwama.jpg", width:100 %>
-            <div class="chausson-infos">
-              <p>Equivalent 4a-4c</p>
-              <p>10 voies</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col align-self-center m-auto">
-          <div class="color">
-            <%= image_tag "https://www.auvieuxcampeur.fr/media/catalog/product/cache/296aa8722a15384a963f616d19a39bf6/8/0/806670032.jpg", width: 100 %>
-            <div class="chausson-infos">
-              <p>Equivalent 5a-5c+</p>
-              <p>10 voies</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col align-self-center m-auto">
-          <div class="color">
-            <%= image_tag "https://www.eb-escalade.com/wp-content/uploads/2019/09/chausson-escalade-nelula1.jpg", width: 100%>
-            <div class="chausson-infos">
-              <p>Equivalent 6a-6c</p>
-              <p>12 voies</p>
-            </div>
-          </div>
-        </div>
-      </div>
-  <br>
-  <br>
-  <br>
-      <div class="row align-items-center justify-content-center flex-niveau my-">
-        <div class="col-sm-6 m-auto">
-          <div class="color">
-            <%= image_tag "https://planetgrimpe.com/wp-content/uploads/2018/06/scarpa-furia-s-chaussons-descalade-1024x1024.jpg", width: 100%>
-            <div class="chausson-infos">
-              <p>Equivalent 6a-6c+</p>
-              <p>14 voies</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 m-auto">
-          <div class="color">
-            <%= image_tag "https://boutique-lesartsdelagrimpe.com/client/cache/produit/500_______blackopium-ballerine-800x534_3459.jpg", width: 100 %>
-            <div class="chausson-infos">
-              <p>Equivalent 7a-7c</p>
-              <p>7 voies</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 m-auto">
-          <div class="color">
-            <%= image_tag "https://www.lechaussemontagne.fr/284-large_default/chausson-escalade-canin-leader.jpg", width: 100 %>
-            <div class="chausson-infos">
-              <p>Supérieur à 7c</p>
-              <p>5 voies</p>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="container-fluid background-purple my-5">
+    <div class="container py-5">
+      <h2 class="h2-dark my-5">Les voies par niveau</h2>
+      <ul class="chaussons-box">
+        <li class="chausson-item"><%= image_tag "https://www.chullanka.com/media/catalog/product/cache/1/image/1024x/9df78eab33525d08d6e5fb8d27136e95/s/k/skwama.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+
+        <li class="chausson-item"><%= image_tag "https://www.auvieuxcampeur.fr/media/catalog/product/cache/296aa8722a15384a963f616d19a39bf6/8/0/806670032.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+
+        <li class="chausson-item"><%= image_tag "https://www.eb-escalade.com/wp-content/uploads/2019/09/chausson-escalade-nelula1.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+
+        <li class="chausson-item"><%= image_tag "https://planetgrimpe.com/wp-content/uploads/2018/06/scarpa-furia-s-chaussons-descalade-1024x1024.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+
+        <li class="chausson-item"><%= image_tag "https://boutique-lesartsdelagrimpe.com/client/cache/produit/500_______blackopium-ballerine-800x534_3459.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+
+        <li class="chausson-item"><%= image_tag "https://www.lechaussemontagne.fr/284-large_default/chausson-escalade-canin-leader.jpg", width:100 %>
+          <p>10 voies 4a-4c</p>
+        </li>
+      </ul>
     </div>
   </div>
 </section>
+
+
 
 <div class="container page-salle-texte">
   <h4>
@@ -117,3 +84,5 @@
 <div class="lame-infos-pratiques">
   <h2>Envie d'essayer ? Profitez d'une entrée gratuite pour vous faire un avis !</h2>
 </div>
+
+<%= render "shared/footer" %>

@@ -7,35 +7,38 @@
 
 // SALLE
 
-// .lame-salle {
-//   margin: 0 auto;
-//   width: 800px;
-// }
+
 
 .contenu-salle {
+  padding: 20px;
   text-align: center;
   margin: 15px;
 
   p {
-    margin: 20px;
+    // margin: 20px;
     padding: 20px;
-    font-size: 24px;
+    font-size: 1.3em;
+  }
+
+  h2 {
+    color: $dark-blue;
   }
 }
 
 
+
 #section-salle {
-  margin-top: 300px;
+  margin-top: 10vh;
+  // height: 700px;
 }
 
 
 // CONCEPT
 
 .concept {
-  background-color: #FAFAFA;
   // clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
-  height: 70vh;
-  margin-top: 200px;
+  // height: 70vh;
+  // margin-top: 200px;
 }
 
 
@@ -43,41 +46,37 @@
   display: flex;
   flex-grow: 1;
   margin: 40px;
-  // width: 90%;
   justify-content: space-around;
-  // padding: 20px;
 }
 
 .contenu-concept {
   text-align: center;
   // width: 800px;
   padding: 40px;
-  // align-items: center;
-  // justify-items: start;
+
 
     p {
-    font-size: 22px;
     padding: 20px;
+    font-size: 18px;
     text-align: left;
   }
 
     h2 {
       font-size: 32px;
-      padding: 25px;
+      text-align: left;
+      padding: 20px;
   }
 }
 
 
-#concept-image {
-  clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
-}
 
 
 
 // PLANNING
 
 .container-planning {
-  margin-top: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   text-align: center;
 }
 
@@ -99,7 +98,10 @@
   margin-top: 20vh;
   margin-bottom: 20vh;
   text-align: center;
+  align-content: space-between;
 }
+
+
 
 .title-partenaires {
   padding: 20px;
@@ -107,6 +109,7 @@
 }
 
 .logos-partenaires {
+  flex-wrap: wrap;
   display: flex;
   text-align: center;
   justify-content: space-around;

@@ -48,16 +48,6 @@
   text-align: center;
   align-items: center;
   margin-bottom: 200px;
-
-  h2 {
-    font-size: 40px;
-    font-weight: bold;
-  }
-
-  p {
-    margin: 20px;
-    font-size: 24px;
-  }
 }
 
 .cards {
@@ -80,7 +70,7 @@
 .tarifs {
   background-color: white;
   padding: 50px;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
   position: absolute;
   top: 500px;
@@ -92,11 +82,8 @@
   text-align: center;
   justify-content: space-around;
 
-  h3 {
-    color: #4E5166;
-  }
+  // h3 {
+  //   color: #4E5166;
+  // }
 }
 
-.container-block {
-  margin-bottom: 30vh;
-}
