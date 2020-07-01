@@ -1,57 +1,55 @@
 <%= render 'shared/banner' %>
 
 <section>
-  <div class="container-fluid">
-<!--     <div class="container text-center py-3 my-5">
-      <h2>Donnez vie à vos envies de hauteur</h2>
-    </div> -->
-    <div class="bloc-offers">
-      <div class="card-offer">
-        <div class="card-title">
-          <h2><span class="highlighted-red">Adhésion Club</span></h2>
-          <div class="card-info">
-            <div class="offer-content">
-              <ul>
-                <li>Cours collectifs</li>
-                <li>Stages bloc, voie et grande voie</li>
-                <li>Challenges saisonniers</li>
-              </ul>
-              <br>
-            </div>
-           <%= link_to "Découvrir", license_path, class: "btn-savoir-plus"  %>
+  <div class="container text-left section-offres mt-5">
+    <h4>Test</h4>
+  </div>
+  <div class="bloc-offers">
+    <div class="card-offer">
+      <div class="card-title">
+        <h2><span class="highlighted-red">Adhésion Club</span></h2>
+        <div class="card-info">
+          <div class="offer-content">
+            <ul>
+              <li>Cours collectifs</li>
+              <li>Stages bloc, voie et grande voie</li>
+              <li>Challenges saisonniers</li>
+            </ul>
+            <br>
           </div>
+         <%= link_to "Découvrir", license_path, class: "btn-savoir-plus"  %>
         </div>
       </div>
-      <div class="card-offer">
-        <div class="card-title">
-          <h2><span class="highlighted-red">La grimpe libre</span></h2>
-          <div class="card-info">
-            <div class="offer-content">
-              <ul>
-                <li>Plages horaires dédiées en soirée</li>
-                <li>Stages bloc, voie et grande voie</li>
-                <li>Challenges saisonniers</li>
-              </ul>
-              <br>
-            </div>
-           <%= link_to "Découvrir", public_path, class: "btn-savoir-plus"  %>
+    </div>
+    <div class="card-offer">
+      <div class="card-title">
+        <h2><span class="highlighted-red">La grimpe libre</span></h2>
+        <div class="card-info">
+          <div class="offer-content">
+            <ul>
+              <li>Plages horaires dédiées en soirée</li>
+              <li>Stages bloc, voie et grande voie</li>
+              <li>Challenges saisonniers</li>
+            </ul>
+            <br>
           </div>
+         <%= link_to "Découvrir", public_path, class: "btn-savoir-plus"  %>
         </div>
       </div>
-      <div class="card-offer">
-        <div class="card-title">
-          <h2><span class="highlighted-red">Evénements privés</span></h2>
-          <div class="card-info">
-            <div class="offer-content">
-              <ul>
-                <li>Privatisation Entreprises</li>
-                <li>Cours particuliers à la demande</li>
-                <li>Evénements sur mesure</li>
-              </ul>
-              <br>
-            </div>
-           <%= link_to "Découvrir", business_path, class: "btn-savoir-plus"  %>
+    </div>
+    <div class="card-offer">
+      <div class="card-title">
+        <h2><span class="highlighted-red">Evénements privés</span></h2>
+        <div class="card-info">
+          <div class="offer-content">
+            <ul>
+              <li>Privatisation Entreprises</li>
+              <li>Cours particuliers à la demande</li>
+              <li>Evénements sur mesure</li>
+            </ul>
+            <br>
           </div>
+         <%= link_to "Découvrir", business_path, class: "btn-savoir-plus"  %>
         </div>
       </div>
     </div>
@@ -69,7 +67,7 @@
       <div class="col-12 col-lg-8 align-self-center contenu-salle">
         <h2>Progressez <span class="highlighted-red">à votre rythme</span>quel que soit votre niveau</h2>
         <p>La salle de Saint-Gervais a été aménagée dans l'optique de démocratiser la pratique de l'escalade pour toutes et tous, quelque soit votre niveau ou votre âge. La salle propose une vingtaine de voies, qui sont modifiées régulièrement pour vous challenger sur de nouvelles techniques.
-          <br>Nos professionnels encadrants expérimentés et passionés vous aident à déterminer vos objectifs et à progresser à votre rythme, en toute sécurité.</p>
+          <br>Nos professionnels encadrants expérimentés et passionnés vous aident à déterminer vos objectifs et à progresser à votre rythme, en toute sécurité.</p>
         <%= link_to "Découvrir la salle", salle_path, class: "btn-savoir-plus"  %>
       </div>
     </div>
@@ -82,14 +80,16 @@
 
  <section>
   <div class="container-fluid concept my-5">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-         <%= image_tag "https://images.pexels.com/photos/113737/rope-knitting-heart-love-113737.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", height:600%>
-      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+           <%= image_tag "https://image.shutterstock.com/image-illustration/love-climbing-sign-600w-118575706.jpg", height:600%>
+        </div>
 
-      <div class="col-12 col-lg-6 contenu-concept">
-        <h2>Partager une <span class="highlighted-red">passion</span></h2>
-        <p>Aume, c’est une association lancée par deux professionnels de l'escalade passionnés, Julien et Luc. Tous deux diplômés du Brevet d'Etat depuis plus de 15 ans, ils sont portés par l'envie de transmettre le goût de ce sport si mythique de la région. Créée fin 2013 et soutenue par de nombreux partenaires locaux, Aume a vocation à partager plusieurs valeurs au plus grand nombre : audace, plaisir, respect, et à permettre aux jeunes talents de s'épanouir à plus haut niveau.</p>
+        <div class="col-12 col-lg-6 contenu-concept">
+          <h2>Partager une <span class="highlighted-red">passion</span></h2>
+          <p>Aume, c’est une association lancée par deux professionnels de l'escalade passionnés, Julien et Luc. Tous deux diplômés du Brevet d'Etat depuis plus de 15 ans, ils sont portés par l'envie de transmettre le goût de ce sport si mythique de la région. Créée fin 2013 et soutenue par de nombreux partenaires locaux, Aume a vocation à partager plusieurs valeurs au plus grand nombre : audace, plaisir, respect, et à permettre aux jeunes talents de s'épanouir à plus haut niveau.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -98,10 +98,10 @@
 
 <!-- RUBRIQUE PLANNING
  -->
-<section class="planning background-purple py-5">
-  <div class="container container-planning text-center">
+<section class="planning background-purple my-5 py-5">
+  <div class="container container-planning text-left">
     <div class="row planning-title">
-      <div class="col-12 col-lg-6 img-fluid">
+      <div class="col-10 col-lg-6 img-fluid">
         <h2>Le planning<span class="highlighted-red">hebdomadaire</span></h2>
         <p>Planning "classique", à titre indicatif.</p>
         <div class="img-fluid max-width: 100%">

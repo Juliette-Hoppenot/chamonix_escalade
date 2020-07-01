@@ -45,6 +45,7 @@
 .flex-concept {
   display: flex;
   flex-grow: 1;
+  flex-wrap: wrap;
   margin: 40px;
   justify-content: space-around;
 }
@@ -75,6 +76,7 @@
 // PLANNING
 
 .container-planning {
+  display: flex;
   margin-top: 5vh;
   margin-bottom: 5vh;
   text-align: center;
@@ -88,7 +90,6 @@
 
   p {
   font-size: 22px;
-  padding: 20px;
   }
 }
 
