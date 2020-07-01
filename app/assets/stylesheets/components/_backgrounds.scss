@@ -6,3 +6,12 @@
 .background-sweet-purple {
   background-color: $sweet-purple;
 }
+
+
+.lame-banner-purple {
+  height: 30vh;
+  width: minmax(600, auto);
+  border-radius: 25px;
+  font-size: 28px;
+  vertical-align: middle;
+}

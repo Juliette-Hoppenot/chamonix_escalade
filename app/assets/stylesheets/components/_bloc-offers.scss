@@ -14,6 +14,10 @@
   margin-top: 10vh;
 }
 
+.section-offres {
+  max-width: 1600px;
+}
+
 .card-offer {
   width: 500px;
   background-color: white;
@@ -21,8 +25,9 @@
   font-size: 28px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
-  // top: -100px;
 }
+
+
 
 // @media(max-width: 992px) {
 //   .card-offer {
@@ -40,6 +45,9 @@
 
 .card-offer:hover {
   box-shadow: rgba(0, 0, 0, 0.22) 10px 45px 70px;
+  display: inline-block;
+  animation: pulse;
+  animation-duration: 3s;
 }
 
 .card-info {
@@ -75,8 +83,3 @@
 //   margin: 30px;
 // }
 
-.toto {
-  background-image: url(https://images.pexels.com/photos/3706707/pexels-photo-3706707.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-  height: 30em;
-  object-fit: fill;
-}
