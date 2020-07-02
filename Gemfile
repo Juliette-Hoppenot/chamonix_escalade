@@ -17,6 +17,7 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'activeadmin'
 gem 'geocoder'
+gem 'sprockets-rails', '2.3.1'
 group :development do
   gem 'web-console', '>= 3.3.0'
 end

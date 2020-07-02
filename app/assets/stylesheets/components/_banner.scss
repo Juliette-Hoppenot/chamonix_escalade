@@ -1,9 +1,9 @@
 .banner {
   height: 70vh;
-  padding-top: 10vh;
-  background-color: #8eb7fc;
-  background-image: linear-gradient(0deg, #8eb7fc 0%, #fbfaff 100%), url(https://image.freepik.com/vecteurs-libre/montez-personnages-mur-falaise-sport-extreme-roches-pierres-grandes-collines-rocheuses-montagnes-explorer-sportifs-hommes-femmes_80590-5998.jpg);
-
+  position: relative;
+  background-color: #ffffff;
+  background-image: linear-gradient(180deg, #ffffff 0%, #607ac7 100%);
+  margin-bottom: 5vh;
 }
 
 
@@ -11,9 +11,9 @@
   text-align: center;
 }
 
-.logo-baseline {
-  width: 600px;
-  display: flex;
-  align-items: center;
-}
+// .logo-baseline {
+//   width: 600px;
+//   display: flex;
+//   align-items: center;
+// }
 
