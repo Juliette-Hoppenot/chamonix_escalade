@@ -15,7 +15,6 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 // }
 // $my-font: "Font Name";
 
-$base-size: 16px;
 $base-height: 1.4;
 
 .white {
@@ -23,7 +22,7 @@ $base-height: 1.4;
 }
 
 .dark-color {
-  color: #423F3F;
+  color: #1b285e;
 }
 
 
@@ -36,24 +35,26 @@ body h3 {
 }
 
 body p {
-  font-size: 20px;
+  font-size: 19px;
+  line-height: 1.8rem;
+  letter-spacing: .05rem;
   color: #423F3F;
   padding: 15px;
+  margin: 30px;
 }
 
 body li {
   font-size: 14px;
-  color: #6c757d;
+  color: #423F3F;
 }
 
 body h2 {
-  font-size: 40px;
+  font-size: 44px;
   line-height: 1.4;
   font-weight: 500;
 }
 
-body p {
-  font-size: 20px;
-  color: #423F3F;
-  padding: 15px;
+body section {
+  margin-top: 10vh;
+  margin-bottom: 20vh;
 }

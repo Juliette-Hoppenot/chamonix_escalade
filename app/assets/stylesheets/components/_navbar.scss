@@ -6,6 +6,16 @@
   // top: -80px;
 }
 
+.logo-baseline {
+  display: flex;
+  align-items: center;
+
+
+  h4 {
+    font-weight: bold;
+  }
+}
+
 .navbar-aume .navbar-collapse {
   flex-grow: 0;
 }
@@ -22,13 +32,13 @@
 .nav-item {
   margin-left: 15px;
   margin-right: 15px;
-  color: $dark-gray;
+  color: #161f6a;
   font-size: 22px;
   font-weight: bolder;
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: $dark-gray;
+    text-decoration-color: #161f6a;
   }
 }
 
@@ -42,6 +52,4 @@
 }
 
 
-.inline-logo {
-display: inline-block;
-}
+

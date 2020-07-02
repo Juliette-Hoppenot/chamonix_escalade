@@ -16,12 +16,14 @@ display: flex;
 
 #h1-home {
   color: white;
-  font-size: 40px;
+  font-size: 80px;
+  text-shadow: 0 5px 15px rgba(0,0,0,.5);
+  line-height: 1.2;
 }
 
 .lecture-video {
   margin: 0 auto;
-  width: 600px;
+  max-width: 300px;
   height: 80vh;
 }
 
