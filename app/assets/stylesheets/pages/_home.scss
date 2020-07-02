@@ -52,24 +52,22 @@
 
 .contenu-concept {
   text-align: center;
-  // width: 800px;
-  padding: 40px;
+  // margin: 0 auto;
+  // padding: 40px;
 
 
-    p {
-    padding: 20px;
-    font-size: 18px;
-    text-align: left;
-  }
 
-    h2 {
-      font-size: 32px;
-      text-align: left;
-      padding: 20px;
-  }
+  //   h2 {
+  //     font-size: 32px;
+  //     text-align: left;
+  //     padding: 20px;
+  // }
 }
 
 
+#img-planning {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 16px 40px;
+}
 
 
 
@@ -118,5 +116,17 @@
 }
 
 
+.tarifs-violet {
+  color: blue;
+  font-weight: bold;
+}
 
+.line-tarif {
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid #6c757d;
 
+  li {
+  list-style: none;
+  text-align: center;
+  }
+}
