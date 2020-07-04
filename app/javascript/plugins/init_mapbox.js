@@ -6,40 +6,26 @@ const buildMap = () => {
   mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
   return new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v10'
+    style: 'mapbox://styles/mapbox/streets-v11'
   });
 };
 
-  if (mapElement) { // only build a map if there's a div#map to inject into
-    mapboxgl.accessToken = mapElement.dataset.mapboxApiKey;
-    const map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v10'
-    });
-  };
 
 const addMarkersToMap = (map, markers) => {
   console.log(markers)
   console.log(map)
   markers.forEach((marker) => {
+    const popup = new
+    mapboxgl.Popun().setHTML(marker.infoWindow);
 
-    new mapboxgl.Marker()
-      .setLngLat([ marker.lng, marker.lat ])
-      //.setPopup(popup)
-      .addTo(map);
+
+  new mapboxgl.Marker()
+    .setLngLat([ marker.lng, marker.lat ])
+    .setPopup(popup)
+    .addTo(map);
   });
 };
 
-
-  if (mapElement) {
-    // [ ... ]
-    const markers = JSON.parse(mapElement.dataset.markers);
-    markers.forEach((marker) => {
-      new mapboxgl.Marker()
-        .setLngLat([ marker.lng, marker.lat ])
-        .addTo(map);
-    });
-  }
 
 
   const fitMapToMarkers = (map, markers) => {
