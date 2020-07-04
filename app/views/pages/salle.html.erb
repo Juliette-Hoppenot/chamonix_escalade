@@ -1,15 +1,10 @@
-<div class="banner">
-<%= render 'shared/navbar' %>
+<%= render 'shared/banner' %>
 
-  <div class="container">
-    <h1>3 espaces, 2 disciplines, <span class="highlighted-red">1 passion</span></h1>
-  </div>
-</div>
 
 <section>
-  <div class="container my-5">
+  <div class="container my-2">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-6 lame-centered">
+      <div class="col-12 col-lg-8 lame-centered">
         <h2 class="h2-dark">Un lieu insolite</h2>
         <p>Venez vous immerger dans un lieu atypique de plus de 500m2, sous 12 mètres de plafond, aménagé dans le pilier du Pont de saint-Gervais. <br><br>Deux espaces bloc et voie invitent à l'expérimentation et à l'entraînement individuel et collectif. Un espace extérieur en libre accès est également proposé aux curieux et débutants. </p>
       </div>
@@ -17,9 +12,6 @@
   </div>
 </section>
 
-<section>
-  <%= render 'shared/carousel' %>
-</section>
 <!-- MAIN-SALLE
  -->
 
@@ -56,25 +48,24 @@
   </div>
 </section>
 
+<section>
+  <div class="container d-flex justify-content-center">
+    <h2>La salle en images</h2>
+  </div>
+  <%= render 'shared/carousel' %>
+</section>
 
 
-<div class="container page-salle-texte">
-  <div class="row justify-content-center">
-    <div class="col-12 col-lg-6 lame-centered">
-      <h3>
-        Peur de vite faire le tour ? Pas de panique ! <br><br>Les voies sont régulièrement renouvelées afin de toujours offrir un vent d'air pur et de nouveaux challenges à nos grimpeurs adorés <i class="fas fa-heart"></i>
-      </h3>
+<section>
+  <div class="container my-2">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 lame-centered">
+        <h2 class="h2-dark">Envie de fraîcheur ? </h2>
+        <p>Pas de panique ! Les voies sont régulièrement renouvelées afin de toujours offrir un vent d'air pur et de nouveaux challenges à nos grimpeurs adorés :)</p>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-
-<div class="container d-flex background-purple lame-banner-purple">
-  <div class="row align-items-center justify-content-center">
-    <div class="col-12 col-lg-8 col align-self-center">
-      <h2>Envie d'essayer ? Profitez d'une entrée gratuite pour vous faire un avis !</h2>
-    </div>
-  </div>
-</div>
 
 <%= render "shared/footer" %>

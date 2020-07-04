@@ -50,7 +50,6 @@ const addMarkersToMap = (map, markers) => {
 
 
 const initMapbox = () => {
-  console.log('test')
   if (mapElement) {
     const map = buildMap();
     const markers = JSON.parse(mapElement.dataset.markers);
