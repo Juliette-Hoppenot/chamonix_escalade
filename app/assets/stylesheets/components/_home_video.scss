@@ -24,6 +24,13 @@ display: flex;
 .lecture-video {
   margin: 0 auto;
   max-width: 300px;
-  height: 80vh;
+  // height: 80vh;
 }
 
+.home-video-wrapper2 {
+  height: 80vh;
+  display: flex;
+  background-image: url(https://lh3.googleusercontent.com/proxy/7VR_gxgck0HZOt5JUq2jnFCddzeM0Fhln2tMFBN-sExiVt1Phf5EO2xmB7s5FEf1uuu2e_SKOBKraKb2OOKRmqhCpTnBH9avbWTRTAmzHKvJO1SrMPiRojeY_3MHECzKFG1UXr6maJ8TK110tManKUTP84iz);
+  background-size: cover;
+  background-position: center;
+}

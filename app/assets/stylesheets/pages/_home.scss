@@ -117,7 +117,7 @@
 
 
 .tarifs-violet {
-  color: blue;
+  color: #161f6a;
   font-weight: bold;
 }
 
@@ -129,4 +129,10 @@
   list-style: none;
   text-align: center;
   }
+}
+
+#section-tarifs {
+  background-image: url("./abstract-background.jpg");
+  background-size: cover;
+  background-position: center;
 }
