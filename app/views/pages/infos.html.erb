@@ -7,6 +7,58 @@
   </div>
 </div>
 
+<section>
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <h2>Les différentes offres</h2>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+    <%= render 'shared/bloc-offers' %>
+    </div>
+  </div>
+</section>
+
+<section id="section-salle" class="background-purple">
+  <div class="container py-5">
+    <div class="row justify-content-center align-self-center py-5 ">
+      <div class="col-12 col-lg-8 align-self-center contenu-salle">
+        <h2>Les deux super <span class="highlighted-red">entraîneurs</span></h2>
+      </div>
+    </div>
+  </div>
+  <div class="container d-flex portraits">
+    <div class="julien">
+      <%= image_tag "logo-escalade.png", alt: "Portrait Julien Buttin", width: 200 %>
+      <p>Julien BUTTIN</p>
+      <p>Lorem Ipsum </p>
+    </div>
+
+    <div class="luc">
+      <%= image_tag "logo-escalade.png", alt: "Portrait Luc", width: 200 %>
+      <p>Luc SKYWALKER</p>
+      <p>Lorem Ipsum </p>
+    </div>
+  </div>
+
+</section>
+
+<section>
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <h2>Les infos cruciales</h2>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+    <%= render 'shared/infos-pratiques' %>
+    </div>
+  </div>
+</section>
+
+
+
 
 <%= render 'shared/map' %>
 <%= render 'shared/footer' %>
