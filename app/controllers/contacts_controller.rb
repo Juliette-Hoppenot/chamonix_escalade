@@ -18,7 +18,7 @@ class ContactsController < ApplicationController
 
     if @contact.valid?
       Mailer.contact_form(@contact).deliver
-      redirect_to root_path, flash: {success: t(:"create.message_has_been_sent")}
+      redirect_to root_path, flash: {success: (:"create.message_has_been_sent")}
     else
       render :new
     end

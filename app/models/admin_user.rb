@@ -4,6 +4,4 @@ class AdminUser < ApplicationRecord
   devise :database_authenticatable,
          :recoverable, :rememberable, :validatable
 
-  geocoded_by :address
-  after_validation :geocode, if: :will_save_change_to_address?
 end
