@@ -29,17 +29,12 @@
 
 #section-salle {
   margin-top: 10vh;
-  // height: 700px;
+  padding-bottom: 10vh;
+  clip-path: polygon(0 0, 100% 0, 100% 94%, 0% 100%);
 }
 
 
-// CONCEPT
 
-.concept {
-  // clip-path: polygon(100% 0, 100% 91%, 0 100%, 0 7%);
-  // height: 70vh;
-  // margin-top: 200px;
-}
 
 
 .flex-concept {
