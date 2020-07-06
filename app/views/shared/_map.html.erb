@@ -2,8 +2,8 @@
   <h2>Venez on est pas loin !</h2>
   <div class="row justify-content-center">
     <div class="col-12">
-      <div src="https://www.google.com/maps/embed/v1/place?key=MAPBOX_API_KEY"
-        id="map";
+      <div class="map-container"
+        id="map" src="https://api.mapbox.com/[...]?access_token==MAPBOX_API_KEY";
         style="width: 100%; height: 600px;"
         data-markers="<%= @markers.to_json %>"
         data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"

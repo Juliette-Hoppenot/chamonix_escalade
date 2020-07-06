@@ -2,11 +2,19 @@
 .navbar-aume {
   justify-content: space-between;
   padding-top: 30px;
+}
+
+.navbar {
   background-color: transparent;
   transition: 0.5s background-color ease;
+
 }
 
 .navbar-aume-white {
+  background-color: white;
+}
+
+.bg-white {
   background-color: white;
 }
 
@@ -47,6 +55,11 @@
     text-decoration: underline;
     text-decoration-color: #161f6a;
   }
+}
+
+.nav-link .active {
+  text-decoration: underline;
+  text-decoration-color: #161f6a;
 }
 
 #btn-inscription {
