@@ -9,21 +9,34 @@
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= stylesheet_pack_tag 'application', media: 'all' %>
-    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
   </head>
+
   <body>
+    <div id="map"></div>
+
     <%= render 'shared/flashes' %>
     <%= yield %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
 
     <script>
+
     mapboxgl.accessToken = 'pk.eyJ1IjoianVsaWV0dGVob3BwZW5vdCIsImEiOiJja2M3bjF5Z2kxMzlyMndtZ2xxMmcwZ2pwIn0.S_LTnlA1pO8_7viRnnCCOw';
-    var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11'
-    });
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [12.550343, 55.665957],
+zoom: 8
+});
+
+var marker = new mapboxgl.Marker()
+.setLngLat([12.550343, 55.665957])
+.addTo(map);
+
+</script>
+
     </script>
   </body>
 </html>
