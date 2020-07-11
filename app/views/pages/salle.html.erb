@@ -6,26 +6,58 @@
     <div class="row justify-content-center">
       <div class="col-12 col-lg-8 lame-centered">
         <h2 class="h2-dark">Un lieu insolite</h2>
-        <p>Venez vous immerger dans un lieu atypique de plus de 500m2, sous 12 mètres de plafond, aménagé dans le pilier du Pont de saint-Gervais. <br><br>Deux espaces bloc et voie invitent à l'expérimentation et à l'entraînement individuel et collectif. Un espace extérieur en libre accès est également proposé aux curieux et débutants. </p>
+        <p>Venez vous immerger dans un lieu atypique, sous 12 mètres de plafond, aménagé dans le pilier du Pont de saint-Gervais. <br><br>Deux espaces bloc et voie invitent à l'expérimentation et à l'entraînement individuel et collectif. La salle a une capacité d'accueil maximale de 21 personnes, ce qui permet une pratique confortable et chaleureuse aux pratiquants. Un espace extérieur en libre accès est également proposé aux curieux et débutants. </p>
       </div>
     </div>
   </div>
 </section>
 
+
 <section>
-  <div class="container my-5">
-    <div class="row justify-content-center">
-      <h2>Les différentes offres</h2>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-    <%= render 'shared/bloc-offers' %>
+  <div class="container-fluid background-purple concept my-5 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 contenu-concept text-left options-libres">
+          <h2>Grimpez sans être adhérent au Club</span> !</h2>
+          <p>Le mardi et le jeudi, de 19h00 à 21h00. Au choix : </p>
+           <p>- Grimpez en autonomie sous la surveillance d'un pro, avec votre propre matériel (sauf cordes)
+         <strong>Tarif : 8€ l'entrée</strong></p>
+          <p>- Profitez d'une session initiation ou perfectionnement animée par un pro, matériel fourni.
+          <strong>Tarif : 20€ l'entrée</strong></p>
+          <p>- Pass Annuel accès séance libre : <strong>100€</strong></p>
+        </div>
+        <div class="col-12 col-lg-6">
+          <%= image_tag "https://www.outsideonline.com/sites/default/files/styles/full-page/public/2019/11/22/rock-climbing-palestine-main_h.jpg?itok=rw3_5YFA", height:400%>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-<!-- MAIN-SALLE
- -->
+
+
+
+<section>
+<div class="container-fluid concept my-5">
+  <div class="container d-flex">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+         <%= image_tag "https://image.shutterstock.com/image-illustration/love-climbing-sign-600w-118575706.jpg", height:400%>
+      </div>
+
+      <div class="col-12 col-lg-6 contenu-concept">
+        <h2>Louez la salle pour vos événements pro</h2>
+        <p>Vous êtes guide ou BE et vous cherchez un lieu en cas de pluie ? Vous êtes une association ou une structure qui cherche une salle pour ses grimpeurs? Séminaire ou challenge sportif ? <br><br>Contactez-nous pour privatiser la salle, à partir de <strong>50€ les deux heures.</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+  <div class="container d-flex justify-content-center">
+  </div>
+  <%= render 'shared/carousel' %>
+</section>
 
 <section>
   <div class="container-fluid background-purple my-5">
@@ -60,12 +92,6 @@
   </div>
 </section>
 
-<section>
-  <div class="container d-flex justify-content-center">
-    <h2>La salle en images</h2>
-  </div>
-  <%= render 'shared/carousel' %>
-</section>
 
 
 <section>
