@@ -121,13 +121,14 @@
   border-bottom: 0.5px solid #6c757d;
 
   li {
-  list-style: none;
-  text-align: center;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
   }
 }
 
 #section-tarifs {
-  background-image: url("./abstract-background.jpg");
+  // background-image: url("./abstract-background.jpg");
   background-size: cover;
   background-position: center;
 }

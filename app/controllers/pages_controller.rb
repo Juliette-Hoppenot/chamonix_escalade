@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :infos, :license, :public, :business, :salle, :inscription]
+  skip_before_action :authenticate_user!, only: [:home, :entrainements, :infos, :concept, :license, :public, :business, :salle, :inscription]
 
   def home
   end
@@ -20,5 +20,13 @@ class PagesController < ApplicationController
   end
 
   def inscription
+  end
+
+  def concept
+
+  end
+
+  def entrainements
+
   end
 end

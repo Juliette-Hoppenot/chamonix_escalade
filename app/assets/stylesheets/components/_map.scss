@@ -1,14 +1,8 @@
-// .mapping {
-//   width: 800px;
-//   margin: auto;
+.global-map {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-
-//   h2 {
-//     font-size: 32px;
-//   }
-// }
-
-#map-aume {
-  clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
-  height: 50vh;
+.coordonnees p {
+  line-height: 0.5;
 }

@@ -1,0 +1,64 @@
+<%= render 'shared/navbar' %>
+<div class="home-video-wrapper-esprit banner">
+  <div class="container d-flex lecture-video">
+    <div class="row align-self-center">
+      <h1 id="h1-home">L'état d'esprit du Club</h1>
+    </div>
+  </div>
+</div>
+
+<section>
+<div class="container-fluid concept my-5">
+  <div class="container d-flex">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+         <%= image_tag "https://image.shutterstock.com/image-illustration/love-climbing-sign-600w-118575706.jpg", height:400%>
+      </div>
+
+      <div class="col-12 col-lg-6 contenu-concept">
+        <h2>Du partage et des  <span class="highlighted-red">valeurs</span></h2>
+        <p>Soutenue par de nombreux partenaires locaux, Aume cherche à partager les grandes valeurs de l'escalade au plus grand nombre : découverte, nature, entraide, respect, et dépassement de soi. Elle souhaite permettre à tous les publics, jeunes et adultes, de s'épanouir à plus haut niveau.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="container-fluid concept my-5">
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-12 col-lg-6 contenu-concept">
+        <h2>Passer en mode <span class="highlighted-red">intensif</span></h2>
+        <p>L'idée du Club est d'aller au delà de sa zone de confort et de gagner en confiance rapidement. Au travers de 2 entraînements hebdomadaires, et de nombreux stages et contests toute l'année, tout est mis en oeuvre pour améliorer son niveau, toujours avec un focus sur le plaisir et la sécurité.</p>
+        <%= link_to "Voir les entraînements", entrainements_path, class: "btn-savoir-plus-rouge"  %>
+
+      </div>
+      <div class="col-12 col-lg-6">
+         <%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-GWGwo7p2awTvoI2XkAJXekUkwUfg2wHZDg&usqp=CAU", height:400%>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+  <div class="container-fluid concept my-5">
+    <div class="container d-flex my-5">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+           <%= image_tag "https://image.shutterstock.com/image-illustration/love-climbing-sign-600w-118575706.jpg", height:400%>
+        </div>
+
+        <div class="col-12 col-lg-6 contenu-concept my-5">
+          <h2>Une symbiose avec la  <span class="highlighted-red">nature</span></h2>
+          <p>L'élément extérieur reste le meilleur moyen d'apprendre à éprouver le geste et de gérer son rapport à la hauteur. Résolument outdoor, l'équipe organise le plus que possible des entraînements et stages en outdoor, afin de profiter pleinement du potentiel offert par la nature et l'environnement.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%= render "shared/footer" %>
+

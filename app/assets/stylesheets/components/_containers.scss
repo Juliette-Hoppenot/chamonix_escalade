@@ -8,6 +8,21 @@
 }
 
 .portraits {
+  width: 1800px;
+  margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.moniteur {
+  width: 300px;
+  text-align: center;
+}
+
+.offres-entrainements {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+
 }

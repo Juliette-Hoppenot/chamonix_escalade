@@ -8,44 +8,31 @@
 </div>
 
 
-<section id="section-salle" class="background-purple">
+<section id="lame-moniteurs" class="background-purple">
   <div class="container py-5">
     <div class="row justify-content-center align-self-center py-5 ">
       <div class="col-12 col-lg-8 align-self-center contenu-salle">
-        <h2>Les deux super <span class="highlighted-red">entraîneurs</span></h2>
+        <h2>Les 3 super <span class="highlighted-red">moniteurs BE</span></h2>
       </div>
     </div>
   </div>
-  <div class="container d-flex portraits">
-    <div class="julien">
+  <div class="container portraits">
+    <div class="moniteur">
       <%= image_tag "logo-escalade.png", alt: "Portrait Julien Buttin", width: 200 %>
       <p>Julien BUTTIN</p>
-      <p>Lorem Ipsum </p>
     </div>
 
-    <div class="luc">
+    <div class="moniteur">
       <%= image_tag "logo-escalade.png", alt: "Portrait Luc", width: 200 %>
-      <p>Luc SKYWALKER</p>
-      <p>Lorem Ipsum </p>
+      <p>Luc SOLBAS</p>
     </div>
-  </div>
 
-</section>
-
-<section>
-  <div class="container my-5">
-    <div class="row justify-content-center">
-      <h2>Les infos cruciales</h2>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row justify-content-center">
-    <%= render 'shared/infos-pratiques' %>
+    <div class="moniteur">
+      <%= image_tag "logo-escalade.png", alt: "Portrait Martial", width: 200 %>
+      <p>Martial PELLISSIER</p>
     </div>
   </div>
 </section>
-
-
 
 
 <%= render 'shared/map' %>
