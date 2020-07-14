@@ -1,17 +1,33 @@
-<div class="container mapping">
-  <h2>Venez on est pas loin </h2>
-  <p>On est juste là, sous le pont !</p>
-</div>
-<div class="container-fluid">
-<div class="row justify-content-center">
-  <div class="col-12">
-    <div class="map-container"
-      id="map" src="https://api.mapbox.com/[...]?access_token==MAPBOX_API_KEY";
-      style="width: 100%; height: 600px;"
-      data-markers="<%= @markers.to_json %>"
-      data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
-      ></div>
+<section>
+
+  <div class="container mapping my-5 ">
+    <h2>Venez on est pas loin </h2>
+    <p>On est juste là, sous le pont !</p>
+  </div>
+
+  <div class="container-fluid my-5">
+    <div class="row px-5">
+      <div class="col-12 col-lg-6">
+        <div class="map-container"
+        id="map" src="https://api.mapbox.com/[...]?access_token==MAPBOX_API_KEY";
+        style="width: 100%; height: 600px;"
+        data-markers="<%= @markers.to_json %>"
+        data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>">
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="coordonnees mt-2">
+          <p class="font-weight-bold">Nos coordonnées</p>
+          <p><strong>- Adresse</strong> : 40 rue des Lapinous, 74170 Saint-Gervais-Les Bains</p>
+          <p><strong>- Téléphone</strong> : 04 65 65 65 65 </p>
+          <p><strong>- Email</strong>: contact@aumeescalade.fr</p>
+          <p><strong>- Transport</strong>: Bus 182, arrêt Les Marmottes</p>
+          <p class="font-weight-bold">Les horaires</p>
+          <p>- Du lundi au dimanche, de 9h00 à 22h00</p>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
+</section>
 

@@ -17,6 +17,11 @@
   align-items: center;
 }
 
+.options-libres p {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .section-offres {
   max-width: 1600px;
 }
@@ -24,7 +29,7 @@
 .card-offer {
   width: 500px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 25px;
   font-size: 24px;
   text-align: center;
   justify-content: center;
@@ -34,13 +39,13 @@
 }
 
 .card-offer-offers {
-  width: 300px;
+  width: 400px;
   // background-color: white;
   // border-radius: 5px;
   font-size: 24px;
   text-align: left;
   justify-content: flex-start;
-  margin: 60px;
+  margin: 30px;
 }
 
 .bloc-card {

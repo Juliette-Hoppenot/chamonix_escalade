@@ -9,46 +9,12 @@
 
         <h2>Bienvenue au <span class="highlighted-red">Club</span> !</h2>
         <p>Depuis 2013, l'association Aume a vocation à rendre accessible et passionnante la pratique de l'escalade outdoor et indoor aux grimpeurs de Saint-Gervais et ses environs. Elle permet à toutes et tous de s'épanouir dans ce sport mythique de la région, et à certains talents de se révéler, grâce à l'accompagnement aux petits soins de Julien, Luc et Martial, trois diplômés d'Etat chevronnés.</p>
+        <%= link_to "L'état d'esprit", concept_path, class: "btn-savoir-plus-rouge"  %>
       </div>
 
       <div class="col-12 col-lg-6">
         <%= image_tag "https://www.outsideonline.com/sites/default/files/styles/full-page/public/2019/11/22/rock-climbing-palestine-main_h.jpg?itok=rw3_5YFA", height:400%>
       </div>
-    </div>
-  </div>
-</div>
-</section>
-
-
-<section>
-<div class="container-fluid concept my-5">
-  <div class="container d-flex">
-    <div class="row">
-      <div class="col-12 col-lg-6">
-         <%= image_tag "https://image.shutterstock.com/image-illustration/love-climbing-sign-600w-118575706.jpg", height:400%>
-      </div>
-
-      <div class="col-12 col-lg-6 contenu-concept">
-        <h2>Du partage et des  <span class="highlighted-red">valeurs</span></h2>
-        <p>Soutenue par de nombreux partenaires locaux, Aume cherche à partager les grandes valeurs de l'escalade et du sport au plus grand nombre : audace, plaisir, respect, et à permettre à tous les publics, jeunes et adultes, de s'épanouir à plus haut niveau.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-
-<section>
-<div class="container-fluid concept my-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-6 contenu-concept">
-        <h2>Passer en mode <span class="highlighted-red">intensif</span></h2>
-        <p>L'idée du Club est d'aller au delà de sa zone de confort et de gagner en confiance rapidement. Au travers de 2 entraînements hebdomadaires, et de nombreux stages et contests toute l'année, tout est mis en oeuvre pour améliorer son niveau, toujours avec un focus sur le plaisir et la sécurité.</p>
-      </div>
-      <div class="col-12 col-lg-6">
-         <%= image_tag "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-GWGwo7p2awTvoI2XkAJXekUkwUfg2wHZDg&usqp=CAU", height:400%>
-      </div>
-
     </div>
   </div>
 </div>
@@ -76,8 +42,7 @@
 
  <section id="section-tarifs">
   <div class="container my-5">
-    <h2>Nos  <span class="highlighted-red">tarifs</span></h2>
-    <p>Deux entraînements de 3 heures par semaine, assurance incluse</p>
+    <h2>Nos  <span class="highlighted-red">tarifs adhérents</span></h2>
   </div>
     <%= render 'shared/bloc-tarifs' %>
  </section>

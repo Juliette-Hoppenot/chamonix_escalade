@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   root to: 'pages#home'
 
   get 'license', to: 'pages#license', as: :license
+  get 'entrainements', to: 'pages#entrainements', as: :entrainements
+
+  get 'concept', to: 'pages#concept', as: :concept
+
   get 'infos', to: 'pages#infos', as: :infos
 
   get 'public', to: 'pages#public', as: :public
